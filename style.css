@@ -1,0 +1,187 @@
+body { margin: -10px 0 0 -10px; }
+html body { margin: 0; padding: 0; } 
+
+#main{
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+ 	padding: 25px 25px 25px 25px;
+ 	text-align: center; 	
+	overflow: hidden;
+	padding: 0px 0 0 0;
+	background: #FFF;
+}
+
+
+table, th, td{
+	border: 0px;
+}
+
+#wrapper {
+  	width: 100%;
+  	background: #ADD8E6;
+  	border: none;
+}
+
+a: link,
+a: visited {
+    color: #000;
+}
+a: active,
+a: hover {
+    color: #FFF;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+#phonelist {
+	width: 375px;
+	height: auto;
+	float: center;	
+	text-align: center;
+}
+
+#phoneentry {
+	height: auto;
+	width: 375px;
+	float: center;	
+	text-align: center;
+}
+
+#info {
+	width: 158px;
+	float: left;
+	height: 800px;
+	border: 1px solid #2066e2;
+	background: #2066e2;
+	text-align: left;
+	}
+
+#info a {
+	display: block;
+	padding: 22px 0px 0px 0px;
+	color: #000;
+	font-family: Times New Roman;
+	text-decoration: none;
+	font-size : 16pt;	
+	text-align: center;
+
+ }
+
+#info table, th, td{
+	border: 1px solid black;
+}
+
+body {
+	font-family: verdana, arial, sans-serif;
+	color: #333333;
+	font-size: .85em;
+	}			
+	
+#default {  
+	visibility: hidden;  
+	display: none;  
+}  
+
+table.noborder
+{
+	margin-left: auto; 
+	margin-right: auto;
+	border-width: 0px;
+}
+
+table.noborder th
+{
+	border-width: 0px;
+}
+
+table.gridtable{
+	table-layout: auto;
+	width: 360px;	
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: .85em;
+	color: #333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+
+table.gridtable th{
+	padding: 8px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #666666;	
+}
+
+table.gridtable td{
+	padding: 8px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #666666;
+}
+
+.green
+{
+	white-space: nowrap;
+	text-align: center;
+	background-color: #CCFFCC;
+	font-size: 1em;
+}
+
+.red
+{
+	white-space: nowrap;
+	text-align: center;
+	background-color: #FFCCCC;
+	font-size: 1em;
+}
+
+form input {
+	border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px 0px 3px 0px;
+	color: #333;
+}
+
+form textarea {
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 85%;
+	padding: 0.6em 0.5em 0.7em;
+	border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.LV_validation_message{
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}
+
+.LV_valid {
+    color: #00CC00;
+}
+	
+.LV_invalid {
+    color: #CC0000;
+}
+    
+.LV_valid_field,
+	input.LV_valid_field: hover, 
+	input.LV_valid_field: active,
+	textarea.LV_valid_field: hover, 
+	textarea.LV_valid_field: active {
+    	border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+	input.LV_invalid_field: hover, 
+	input.LV_invalid_field: active,
+	textarea.LV_invalid_field: hover, 
+	textarea.LV_invalid_field: active {
+    	border: 1px solid #CC0000;
+}

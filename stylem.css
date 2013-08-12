@@ -1,0 +1,167 @@
+body { margin: -10px 0 0 -10px; }
+html body { margin: 0; padding: 0; } 
+
+#main{
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+ 	padding: 25px 25px 25px 25px;
+ 	text-align: center; 	
+	overflow: hidden;
+	padding: 0px 0 0 0;
+	background: #FFF;
+}
+
+body h2.blue{
+	background: #2066e2;
+	width:100%;
+}
+table, th, td{
+	border: 0px;
+}
+
+#wrapper {
+  	width: 100%;
+  	background: #ADD8E6;
+  	border: none;
+}
+
+a: link,
+a: visited {
+    color: #000;
+}
+a: active,
+a: hover {
+    color: #FFF;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+#phonelist {
+	width: 95%;
+	height: auto;
+	float: center;	
+	text-align: center;
+}
+
+#phoneentry {
+	height: auto;
+	width: 95%;
+	float: center;	
+	text-align: center;
+}
+
+body {
+	font-family: verdana, arial, sans-serif;
+	color: #333333;
+	font-size: 4em;
+	}			
+	
+#default {  
+	visibility: hidden;  
+	display: none;  
+}  
+
+table.noborder
+{
+	margin-left: auto; 
+	width: 95%;	
+	margin-right: auto;
+	border-width: 0px;
+}
+
+table.noborder th
+{
+	border-width: 0px;
+}
+
+table.gridtable{
+	table-layout: auto;
+	width: 95%;	
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: .85em;
+	color: #333333;
+	border-width: 4px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+
+table.gridtable th{
+	padding: 8px;
+	text-align: center;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #666666;	
+}
+
+table.gridtable td{
+	padding: 8px;
+	text-align: center;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #666666;
+}
+
+.green
+{
+	white-space: nowrap;
+	text-align: center;
+	background-color: #CCFFCC;
+	font-size: 1em;
+}
+
+.red
+{
+	white-space: nowrap;
+	text-align: center;
+	background-color: #FFCCCC;
+	font-size: 1em;
+}
+
+form input {
+	border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style: solid;
+	border-width: 4px;
+	padding: 3px 0px 3px 0px;
+	color: #333;
+}
+
+form textarea {
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 85%;
+	padding: 0.6em 0.5em 0.7em;
+	border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style: solid;
+	border-width: 4px;
+}
+
+.LV_validation_message{
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}
+
+.LV_valid {
+    color: #00CC00;
+}
+	
+.LV_invalid {
+    color: #CC0000;
+}
+    
+.LV_valid_field,
+	input.LV_valid_field: hover, 
+	input.LV_valid_field: active,
+	textarea.LV_valid_field: hover, 
+	textarea.LV_valid_field: active {
+    	border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+	input.LV_invalid_field: hover, 
+	input.LV_invalid_field: active,
+	textarea.LV_invalid_field: hover, 
+	textarea.LV_invalid_field: active {
+    	border: 1px solid #CC0000;
+}
