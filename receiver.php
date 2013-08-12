@@ -14,7 +14,7 @@ function ProcessAction($p_action){
             $response->pause(array('length' => '1'));
             $response->say("Passcode accepted.  Please leave a message at the beep, followed by the #.");
             $response->pause(array('length' => '1'));
-			$response->record(array(
+            $response->record(array(
                 'action' => $url . 'confirm.php?from=8142756101&db=trinity_phones',
                 'maxLength' => '120')
             );
@@ -32,20 +32,20 @@ function ProcessAction($p_action){
             break;
 
         case "amber":            
-			header("content-type: text/xml");
+            header("content-type: text/xml");
             $response = new Services_Twilio_Twiml();
             $response->say("Passcode accepted.");
             $response->pause(array('length' => '1'));
             $response->say("A mushroom walks into a coffee shop and says, could I please have a cup of coffee?");
             $response->pause(array('length' => '1'));
-			$response->say("Then the barista tells the mushroom food is not served there.");
+            $response->say("Then the barista tells the mushroom food is not served there.");
             $response->pause(array('length' => '1'));
-			$response->say("The mushroom says, why not?  I am a fungi!");
+            $response->say("The mushroom says, why not?  I am a fungi!");
             $response->pause(array('length' => '1'));
-			$response->say("Ha ha ha ha.  Remember, identify vegetation as safe before eating it.");
+            $response->say("Ha ha ha ha.  Remember, identify vegetation as safe before eating it.");
             $response->pause(array('length' => '1'));
-			print $response;
-			SendText("8147014250", "Amber Alert");
+            print $response;
+            SendText("8147014250", "Amber Alert");
             exit();
             break;
 
@@ -63,9 +63,9 @@ function ProcessAction($p_action){
         case "kelsee":
             header("content-type: text/xml");
             $response = new Services_Twilio_Twiml();
-            $response->say("Passcode accepted.  Have a great day, Kelsee.");		
+            $response->say("Passcode accepted.  Have a great day, Kelsee.");        
             print $response;
-			SendText($_REQUEST['From'], "Kelsee is awesome.  Have a great day.  Carlton");
+            SendText($_REQUEST['From'], "Kelsee is awesome.  Have a great day.  Carlton");
             exit();
             break;
 
@@ -80,16 +80,16 @@ function ProcessAction($p_action){
             exit();
             break;
 
-		case "tina":
+        case "tina":
             header("content-type: text/xml");
             $response = new Services_Twilio_Twiml();
             $response->say("Passcode accepted.  Major mud is awesome.");
-            SendText($_REQUEST['From'], "Majormud is awesome --  Carlton");		
+            SendText($_REQUEST['From'], "Majormud is awesome --  Carlton");     
             print $response;
             exit();
             break;
 
-		default:
+        default:
             $error=true;
             break;
     }  
